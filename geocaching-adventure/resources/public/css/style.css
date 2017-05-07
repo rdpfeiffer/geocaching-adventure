@@ -1,0 +1,14 @@
+body    {background-color: black;}
+label   {color: white;
+         font-family: "Courier New";
+         font-size: 16px;
+         font-weight: normal;}
+input   {color: white;
+         background-color: black;
+         font-family: "Courier New";
+         font-size: 16px;
+         font-weight: normal;
+         width:90%;
+         outline: none;
+         border: none;}
+ 
