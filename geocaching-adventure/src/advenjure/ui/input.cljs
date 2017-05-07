@@ -37,9 +37,8 @@
             (.resume (term)))))
       (read-string (<! key-chan)))))
 
-;(def read-key read-value)
-(defn read-key []
-  )
+(def read-key read-value)
+;(defn read-key [])
 
 ; Needed to properly persist in cljs
 (register-tag-parser! "advenjure.items.Item" map->Item)

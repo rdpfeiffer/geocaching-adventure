@@ -1,5 +1,5 @@
 (ns advenjure.ui.output
-  (:require [jquery]
+  (:require ;[jquery]
             [clojure.string :as string]
             [advenjure.ui.io :as io]))
 
