@@ -1,11 +1,14 @@
 (ns advenjure.ui.output
-  (:import [jline.console ConsoleReader]))
+  ;(:import [jline.console ConsoleReader])
+  )
 
 (defn init []
-  (.clearScreen (ConsoleReader.)))
+  ;(.clearScreen (ConsoleReader.))
+  )
 
 (defn clear []
-  (.clearScreen (ConsoleReader.)))
+  ;(.clearScreen (ConsoleReader.))
+  )
 
 (def print-line println)
 
